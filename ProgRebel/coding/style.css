@@ -1,0 +1,270 @@
+@font-face {
+  font-family: Unispace, sans-serif;
+  src: url(../Fonts/Typodermic/Unispace/unispace.otf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #8f8ce7;
+  font-family: Unispace, sans-serif;
+  height: 100vh;
+}
+
+.logo {
+  text-align: center;
+  padding: 0;
+  margin-top: -1%;
+  background-color: #d8dcd6;
+}
+
+.logoempresa {
+  width: 18%;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  background-color: #3b719f;
+}
+
+li {
+  color: white;
+  display: inline;
+  padding: 10px;
+
+  transition: color 800ms;
+}
+
+li:hover {
+  color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.artigo1 {
+  background-image: url(./img/progamming.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtsobre {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.753);
+  max-width: 500px;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.btnctt {
+  text-align: center;
+}
+
+.btnwpp {
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-family: Unispace;
+  padding: 15px;
+  background-color: black;
+
+  transition: background-color 800ms, box-shadow 1s;
+}
+
+.btnwpp:hover {
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+
+.sobres {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sobreaempresa {
+  background-color: rgba(128, 128, 128, 0.767);
+  margin: 10px;
+  padding: 5px;
+  /* min-height: 300px;
+  min-width: 500px; */
+  font-size: 20px;
+}
+
+.sobrefundador {
+  background-color: rgba(128, 128, 128, 0.767);
+  margin: 10px;
+  padding: 5px;
+  /* max-width: 500px; */
+  font-size: 20px;
+}
+
+.fotofundador {
+  width: 15%;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.nfiqueatras {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.767);
+  display: inline-block;
+  width: 100%;
+  font-size: 25px;
+}
+
+.aaa {
+  display: hidden;
+  height: 40px;
+}
+
+.ctts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contatos {
+  padding: 10px;
+  text-align: center;
+  height: fit-content;
+  background-color: grey;
+  width: 50%;
+  border-radius: 20%;
+  box-shadow: 5px 5px 5px black;
+}
+
+.w {
+  color: black;
+}
+
+.p {
+  color: black;
+  transition: color 800ms;
+}
+
+.p:hover {
+  color: white;
+}
+
+footer {
+  background-color: #3b718f;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  /* width: 100%; */
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .logoempresa {
+    width: 40%;
+  }
+
+  li {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin-left: -30px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  .txtsobre {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.753);
+    max-width: 300px;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px black;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+
+  .sobre {
+    margin-top: -40px;
+  }
+
+  .fotofundador {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 25px;
+  }
+
+  .sobreaempresa {
+    background-color: rgba(128, 128, 128, 0.767);
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .sobrefundador {
+    /* max-width: 500px; */
+    font-size: 15px;
+  }
+
+  .contatos {
+    width: max-content;
+    padding: 25px;
+  }
+
+  iframe {
+    width: 330px;
+  }
+}
+
+.localiza {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.localiza_article {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_local {
+  display: flex;
+
+  justify-content: center;
+  align-content: center;
+}
+
+main {
+  height: 100vh;
+}
